@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;fxapp&apos; to &apos;fxapp_workshop3&apos;" description="Rename resource &apos;fxapp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/fxapp" name="fxapp_workshop3" stamp="1767129160362" updateReferences="true"/>
+</session>
