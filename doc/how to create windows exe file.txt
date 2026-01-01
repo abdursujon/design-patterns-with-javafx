@@ -1,0 +1,15 @@
+first install wix from here: https://github.com/wixtoolset/wix3/releases
+then add the path to the windows environment: C:\Apps\wix314-binaries
+then to create the exe file in the current directory 
+
+View jpackage commands:  jpackage --help
+jpackage --input . --main-jar fxapp.jar --type exe --name "fxapp" --dest . 
+jpackage --input . --main-jar MyCalculator.jar --type exe --name "MyCalculator" --dest . 
+
+
+jpackage --input . --main-jar MyCalculator.jar --main-class my.calculator.Calculator --type exe --name "MyCalculator" --dest . --runtime-image path_to_jre
+
+
+jlink --module-path "C:\Program Files\Java\jdk-17\jmods;C:\Apps\javafx-sdk-20.0.2\lib" --add-modules javafx.controls,javafx.fxml --output myruntime
+
+jpackage --input . --main-jar MyCalculator.jar --main-class my.calculator.Calculator --type exe --name "MyCalculator" --dest . --runtime-image myruntime

@@ -1,4 +1,5 @@
-module uos.fxapp {
+module uos.fxapp_workshop3 {
     requires javafx.controls;
-    exports uos.fxapp;
+	requires java.desktop;
+    exports uos.fxapp_workshop3;
 }
