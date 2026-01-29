@@ -1,4 +1,4 @@
-package sujon.commandpatternapp;
+package sujon.commandpatternappworkshop;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

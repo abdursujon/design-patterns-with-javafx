@@ -1,9 +1,2 @@
 INDEX VERSION 1.134+/home/sujon/Project/design-patterns-with-javafx/.metadata/.plugins/org.eclipse.jdt.core
-2949097923.index
-2830016976.index
-1267726895.index
-3161367155.index
-2677363081.index
-719302067.index
-2541476686.index
-854744583.index
+1865797976.index

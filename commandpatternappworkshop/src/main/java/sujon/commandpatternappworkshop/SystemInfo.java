@@ -1,4 +1,4 @@
-package sujon.commandpatternapp;
+package sujon.commandpatternappworkshop;
 
 public class SystemInfo {
 
