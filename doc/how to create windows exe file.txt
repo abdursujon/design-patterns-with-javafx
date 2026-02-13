@@ -13,3 +13,6 @@ jpackage --input . --main-jar MyCalculator.jar --main-class my.calculator.Calcul
 jlink --module-path "C:\Program Files\Java\jdk-17\jmods;C:\Apps\javafx-sdk-20.0.2\lib" --add-modules javafx.controls,javafx.fxml --output myruntime
 
 jpackage --input . --main-jar MyCalculator.jar --main-class my.calculator.Calculator --type exe --name "MyCalculator" --dest . --runtime-image myruntime
+
+Hi are you good?
+
